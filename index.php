@@ -29,14 +29,6 @@
         bottom: 0%;
         background-color: white;
       }
-      .plot{
-        position: relative;
-        text-align: right;
-        background: black;
-      }
-      .easter{
-        background-color: red;
-      }
     </style>
   </head>
   <body>
@@ -97,15 +89,9 @@ if($delta < 0){
   echo '<br><br><br><br><br><br><br>';
 }
 ?> 
-          </div>
-
-  <section class="plot">
-    <div class="easter">
-    <a  href="http://nelson-haha.api-meal.eu/">voce achou meu easter egg</a>
       </div>
-  </section>
-
-
-  <footer><a href="https://www.instagram.com/lpxsbr/" target="_blank">dev by LpxsBr</a></footer>
+  <footer>
+    <a href="https://www.instagram.com/lpxsbr/" target="_blank">dev by LpxsBr</a>
+  </footer>
   </body>
 </html>
