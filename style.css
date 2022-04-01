@@ -1,0 +1,28 @@
+
+body{
+  background-color: black;
+}
+div{
+  color: white;
+}
+h1{
+  position: center;
+  background: white;
+  color: black;
+  border-radius: 10px, 5px, 10px, 5px;
+}
+h{
+  background: black;
+  color: white;
+}
+input{
+  padding: 20px;
+  position: center;
+}
+footer{
+  position: absolute;
+  align-items: rigth;
+  padding: 0px 600px;
+  bottom: 0%;
+  background-color: white;
+}
