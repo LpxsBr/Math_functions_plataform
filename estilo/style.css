@@ -15,7 +15,7 @@ body{
 }
 .cabecalho{
     grid-area: "cabecalho";
-    background: #cfcfcf url(cabecalho120x1000.png) no-repeat;
+    background: #cfcfcf url(/images/cabecalho120x1000.png) no-repeat;
     background-size: cover;
     display: flex;
     align-items: center;
