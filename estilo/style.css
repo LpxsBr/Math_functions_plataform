@@ -2,6 +2,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     box-sizing: border-box;
 }
+
 body{
     height: 100vh;
     display: grid;
@@ -18,7 +19,6 @@ body{
     background: #cfcfcf url(/images/cabecalho120x1000.png) no-repeat;
     background-size: cover;
     display: flex;
-    align-items: center;
     z-index: 0px;
     box-shadow: black 1px 1px 20px 1px;
 }
@@ -26,10 +26,6 @@ img{
     margin: 10px;
     width: 50px;
     border-radius: 100px;
-}
-.cabecalho > ul{
-    margin: 10px;
-    float: left;
 }
 .conteudo{
     height: calc(100vh-(120px));
@@ -42,7 +38,6 @@ img{
     text-align: center;
 }
 .conteudo > .inputCampo{
-    /*box-shadow: black 1px 1px 10px 1px;*/
     width: 300px;
     height: 150px;
     margin:0 auto;
