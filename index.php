@@ -1,24 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo/style.css">
-    <title>Calc Eq 2 Grau</title>
+    <title>Calculadora Eq2g</title>
 </head>
+
 <body>
     <header class="cabecalho">
         <div class="logo">
-            <img src="logo.png" alt="logo" class="logoImg">
+            <img src="/images/logo.png" alt="logo" class="logoImg">
         </div>
         <div class="menu">
-            <li><a href="https://www.instagram.com/lpxsbr/" class="whoiam">Whoiam</a></li>
-            <li><a href="https://github.com/LpxsBr" class="others">Others</a></li>
-            <li><a href="#" class="Subscribe">Subscribe</a></li>
+            <a href="https://www.instagram.com/lpxsbr/" class="whoiam">Quem eu sou</a>
+            <a href="https://github.com/LpxsBr" class="others">Github</a>
+            <a href="#" class="Subscribe">Subs</a>
         </div>
     </header>
-    
     <main class="conteudo">
         <div class="titulo">
             <h3>Calculadora de Equação de 2 Grau</h3>
@@ -33,17 +34,17 @@
                 <h><input type="number" name="cofb">x</h>
                 <h><input type="number" name="cofc"></h>
                 <button class="subbtn">Calcular</button>
-                <!--<input type="submit" value="Calcular" class="submtbtn">-->
             </form>
         </div>
         <div class="script">
-           <?php include("calculate/eq2g/calc.php") ?>
+            <?php include("calculate/eq2g/calc.php")?>
         </div>
     </main>
-    
     <footer class="rodape">
-        <div class="rodapecontent">LpxsBr - <?= date('Y')?></div>
+        <div class="rodapecontent">LpxsBr -
+            <?= date('Y')?>
+        </div>
     </footer>
-    
 </body>
+
 </html>
