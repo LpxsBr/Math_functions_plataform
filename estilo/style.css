@@ -34,9 +34,17 @@ img{
 .conteudo{
     height: calc(100vh-(120px));
     grid-area: "conteudo";
+    margin: 0 auto;
 }
 .conteudo > .explica{
     text-align: center;
+}
+.conteudo > .apresentacao{
+    margin: 20px;
+}
+.conteudo > .apresentacao{
+    margin: 20px;
+    width: 600px;
 }
 .conteudo > .titulo{
     text-align: center;
